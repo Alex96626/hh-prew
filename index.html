@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body class="page">
+    <aside class="search-resume">
+        <form class="search-resume__form">
+            <label class="search-resume__field">
+                <span class="search-resume__field-name">Список вакансий</span>
+                <select class="search-resume__field-value search-resume__field-value_type-primary" name="test">
+                    <option value="123">Все вакансии</option>
+                    <option value="123">Финансист (Москва)</option>
+                    <option value="123">Менеджер по продажам без холодныых звонков (Самара)</option>
+                    <option value="123">Менеджер по продажам (Симферополь)</option>
+                </select>
+            </label>
+            <label class="search-resume__field">
+                <span class="search-resume__field-name">Поисковые фразы</span>
+                <input class="search-resume__field-value search-resume__field-value_type-primary" name="test">
+            </label>
+            <div class="search-resume__age-list">
+                <label class="search-resume__field">
+                    <span class="search-resume__field-name">Миинимальный возраст</span>
+                    <div class="search-resume__field__wrapper">
+                        <input class="search-resume__field-value search-resume__field-value_type-secondary" name="test" type="number">
+                        <div class="search-resume__num-field">
+                            <button class="search-resume__num-field-btn search-resume__num-field-minus" type="button">
+                                <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="1" height="9" transform="matrix(0.707107 0.707107 0.707107 -0.707107 0 6.36398)" fill="#707070"/>
+                                    <rect x="13.071" y="6.36398" width="1" height="9" transform="rotate(135 13.071 6.36398)" fill="#707070"/>
+                                </svg>     
+                            </button>
+                            <button class="search-resume__num-field-btn search-resume__num-field-plus" type="button">
+                                <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect y="0.707123" width="1" height="9" transform="rotate(-45 0 0.707123)" fill="#707070"/>
+                                    <rect width="1" height="9" transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 13.071 0.707123)" fill="#707070"/>
+                                </svg>     
+                            </button>
+                        </div>
+                    </div>
+                </label>
+                <label class="search-resume__field">
+                    <span class="search-resume__field-name">Максимальный возраст</span>
+                    <div class="search-resume__field__wrapper">
+                        <input class="search-resume__field-value search-resume__field-value_type-secondary" name="test" type="number">
+                        <div class="search-resume__num-field">
+                            <button class="search-resume__num-field-btn search-resume__num-field-minus" type="button">
+                                <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="1" height="9" transform="matrix(0.707107 0.707107 0.707107 -0.707107 0 6.36398)" fill="#707070"/>
+                                    <rect x="13.071" y="6.36398" width="1" height="9" transform="rotate(135 13.071 6.36398)" fill="#707070"/>
+                                </svg>     
+                            </button>
+                            <button class="search-resume__num-field-btn search-resume__num-field-plus" type="button">
+                                <svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect y="0.707123" width="1" height="9" transform="rotate(-45 0 0.707123)" fill="#707070"/>
+                                    <rect width="1" height="9" transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 13.071 0.707123)" fill="#707070"/>
+                                </svg>     
+                            </button>
+                        </div>
+                    </div>
+                </label>
+            </div>
+            <label class="search-resume__field">
+                <span class="search-resume__field-name">Уровенб образования</span>
+                <select class="search-resume__field-value search-resume__field-value_type-primary" name="test">
+                    <option value="123">Финансист (Москва)</option>
+                    <option value="123">Менеджер по продажам без холодныых звонков (Самара)</option>
+                    <option value="123">Менеджер по продажам (Симферополь)</option>
+                </select>
+            </label>
+            <label class="search-resume__field">
+                <span class="search-resume__field-name">Опыт работы</span>
+                <select class="search-resume__field-value search-resume__field-value_type-primary" name="test">
+                    <option value="123">Финансист (Москва)</option>
+                    <option value="123">Менеджер по продажам без холодныых звонков (Самара)</option>
+                    <option value="123">Менеджер по продажам (Симферополь)</option>
+                </select>
+            </label>
+            <label class="search-resume__field">
+                <span class="search-resume__field-name">Дополнительный фильтр</span>
+                <select class="search-resume__field-value search-resume__field-value_type-primary" name="test">
+                    <option value="123">Финансист (Москва)</option>
+                    <option value="123">Менеджер по продажам без холодныых звонков (Самара)</option>
+                    <option value="123">Менеджер по продажам (Симферополь)</option>
+                </select>
+            </label>
+            <label class="search-resume__field">
+                <span class="search-resume__field-name">Сортировка</span>
+                <select class="search-resume__field-value search-resume__field-value_type-primary" name="test">
+                    <option value="123">Финансист (Москва)</option>
+                    <option value="123">Менеджер по продажам без холодныых звонков (Самара)</option>
+                    <option value="123">Менеджер по продажам (Симферополь)</option>
+                </select>
+            </label>
+            <label  class="search-resume__field">
+                <span class="search-resume__field-name">Статус поиска работы</span>
+                <select class="search-resume__field-value search-resume__field-value_type-primary" name="test">
+                    <option value="123">Финансист (Москва)</option>
+                    <option value="123">Менеджер по продажам без холодныых звонков (Самара)</option>
+                    <option value="123">Менеджер по продажам (Симферополь)</option>
+                </select>
+            </label>
+            <button class="search-resume__submit">Найти резюме</button>
+        </form>
+    </aside>
+    <main class="main">
+        <section class="resume">
+            <ul class="resume__list">
+                <li class="resume__item">
+                    <img src="" alt="''" class="resume__photo">
+                    <div class="resume__content">
+                        <p class="resume__field resume__field_type_secondary resume__full-name">ФИО: -</p>
+                        <p class="resume__field resume__field_type_primary  resume__position">Помощник юриста</p>
+                        <p class="resume__field resume__field_type_primary  resume__age">Возраст: -</p>
+                        <p class="resume__field resume__field_type_primary  resume__experience">Опыт работы: Без опыта</p>
+                        <p class="resume__field resume__field_type_primary  resume__education">Образование: Высшее</p>
+                        <p class="resume__field resume__field_type_primary  resume__area">Город: Симферополь</p>
+                        <p class="resume__field resume__field_type_primary  resume__salary">Зарплата: -</p>
+                    </div>
+                </li>
+                <li class="resume__item">
+                    <img src="" alt="" class="resume__photo">
+                    <div class="resume__content">
+                        <p class="resume__field resume__field_type_secondary resume__full-name ">Иванова Татьяна</p>
+                        <p class="resume__field resume__field_type_primary  resume__position">Должность: Экономист</p>
+                        <p class="resume__field resume__field_type_primary  resume__age">Возраст: 26</p>
+                        <p class="resume__field resume__field_type_primary  resume__experience">Опыт работы: Без опыта</p>
+                        <p class="resume__field resume__field_type_primary  resume__education">Образование: Высшее</p>
+                        <p class="resume__field resume__field_type_primary  resume__area">Город: Москва</p>
+                        <p class="resume__field resume__field_type_primary  resume__salary">Зарплата: -</p>
+                    </div>
+                    <button class="resume__show-detailed">Просмотреть резюме</button>
+                </li>
+            </ul>
+        </section>
+        <article class="resume-detailed">
+            <header class="resume-detailed__header">
+                <button class="resume-detailed__get">Взять в работу</button>
+                <button class="rusume-detailed__close">
+                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="1.48975" width="19" height="2" transform="rotate(45 1.48975 0)" fill="#D9D9D9"/>
+                        <rect width="19" height="2" transform="matrix(-0.707107 0.707107 0.707107 0.707107 13.4353 0)" fill="#D9D9D9"/>
+                    </svg>     
+                </button>
+            </header>
+            <h2 class="resume-detailed__title">Иванова Татьяна Ивановна</h2>
+            <ul class="resume-detailed__main">
+                <li class="resume-detailed__main-item resume-detailed__main-item_type-primary">
+                    <div class="resume-detailed__main-title resume-detailed__main-title_type-primary">Должность:</div>
+                    <div class="resume-detailed__main-value">Экономист</div>
+                </li>
+                <li class="resume-detailed__main-item">
+                    <div class="resume-detailed__main-title resume-detailed__main-title_type-secondary">Возраст:</div>
+                    <div class="resume-detailed__main-value"></div>
+                </li>
+                <li class="resume-detailed__main-item resume-detailed__main-item_type-primary">
+                    <div class="resume-detailed__main-title resume-detailed__main-title_type-primary">Опыт работы:</div>
+                    <div class="resume-detailed__main-value">Без опыта</div>
+                </li>
+                <li class="resume-detailed__main-item">
+                    <div class="resume-detailed__main-title resume-detailed__main-title_type-secondary">Образование:</div>
+                    <div class="resume-detailed__main-value">Высшее</div>
+                </li>
+                <li class="resume-detailed__main-item resume-detailed__main-item_type-primary">
+                    <div class="resume-detailed__main-title resume-detailed__main-title_type-primary">Город:</div>
+                    <div class="resume-detailed__main-value">Москва</div>
+                </li>
+                <li class="resume-detailed__main-item">
+                    <div class="resume-detailed__main-title resume-detailed__main-title_type-secondary">Телефон:</div>
+                    <div class="resume-detailed__main-value">Экономист</div>
+                </li>
+                <li class="resume-detailed__main-item resume-detailed__main-item_type-primary">
+                    <div class="resume-detailed__main-title resume-detailed__main-title_type-primary">Зарплата:</div>
+                    <div class="resume-detailed__main-value"></div>
+                </li>
+            </ul>
+            <div class="resume-detailed__content">
+                <h2 class="resume-detailed__content-title">Подробнее</h2>
+                <h3 class="resume-detailed__content-sub-title">Персональная информация:</h3>
+                <ul class="resume-detailed__content-list">
+                    <li class="resume-detailed__content-item">Гражданство: РФ</li>
+                    <li class="resume-detailed__content-item">Место проживания: Москва</li>
+                    <li class="resume-detailed__content-item">Готов к переезду: Нет</li>
+                    <li class="resume-detailed__content-item">Готов к командировкам: Да</li>
+                </ul>
+                <h3 class="resume-detailed__content-sub-title">Образование</h3>
+                <ul class="resume-detailed__content-list">
+                    <li class="resume-detailed__content-item">2020-2024, Высшее образование: Московский государственный университет экономики, статистики и информатики, факультет Экономики</li>
+                </ul>
+                <h3 class="resume-detailed__content-sub-title">Навыки:</h3>
+                <ul class="resume-detailed__content-list">
+                    <li class="resume-detailed__content-item">Знание экономической теории</li>
+                    <li class="resume-detailed__content-item">Аналитический склад ума</li>
+                    <li class="resume-detailed__content-item">Владение компьютерными программами (MS Office, 1C)</li>
+                    <li class="resume-detailed__content-item">Знание английского языка на уровне Upper-Intermediate</li>
+                    <li class="resume-detailed__content-item">Умение работать с большими объемами информации</li>
+                    <li class="resume-detailed__content-item">Способность быстро обучаться новому</li>
+                    <li class="resume-detailed__content-item">Способность быстро обучаться новому</li>
+                    <li class="resume-detailed__content-item">Способность быстро обучаться новому</li>
+                </ul>
+                <h3 class="resume-detailed__content-sub-title">Контактные данные:</h3>
+                <ul class="resume-detailed__content-list">
+                    <li class="resume-detailed__content-item">Телефон: </li>
+                    <li class="resume-detailed__content-item">E-mail:</li>
+                </ul>
+            </div>
+        </article>
+    </main>
+</body>
+</html>
+
